@@ -59,3 +59,5 @@ Data mahasiswa disimpan secara lokal dalam penyimpanan internal Android pada ber
 | [`AndroidManifest.xml`](file:///D:/Semester%203/tugas4/app/src/main/AndroidManifest.xml) | Berkas konfigurasi utama aplikasi Android. |
 
 ---
+
+![](asset/asset_1.png)
