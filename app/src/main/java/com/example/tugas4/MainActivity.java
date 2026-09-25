@@ -58,6 +58,11 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
+        if (nrpInput.length() != 10) {
+            Toast.makeText(this, "NRP harus terdiri dari 10 digit angka!", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
         ContentValues data = new ContentValues();
         data.put("nrp", nrpInput);
         data.put("nama", namaInput);
@@ -99,6 +104,11 @@ public class MainActivity extends AppCompatActivity {
 
         if (nrpInput.isEmpty() || namaInput.isEmpty()) {
             Toast.makeText(this, "NRP dan Nama baru harus diisi!", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        if (nrpInput.length() != 10) {
+            Toast.makeText(this, "NRP harus terdiri dari 10 digit angka!", Toast.LENGTH_SHORT).show();
             return;
         }
 
