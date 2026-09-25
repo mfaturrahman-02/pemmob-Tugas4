@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Tugas 4</string>
+    <string name="header_title">Data Mahasiswa</string>
+    <string name="header_subtitle">Sistem Informasi Akademik • SQLite</string>
+    <string name="card_tag">KARTU MAHASISWA</string>
+    <string name="card_status">STATUS DATABASE</string>
+    <string name="card_db_info">SQLite • db_mahasiswa</string>
+    <string name="form_title">Form Input Mahasiswa</string>
+    <string name="form_subtitle">Isi NRP dan Nama untuk kelola data</string>
+    <string name="hint_nrp">NRP Mahasiswa</string>
+    <string name="hint_nama">Nama Lengkap</string>
+    <string name="btn_simpan">Simpan</string>
+    <string name="btn_cari">Cari</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_hapus">Hapus</string>
+    <string name="school_logo">Logo Sekolah</string>
+</resources>
